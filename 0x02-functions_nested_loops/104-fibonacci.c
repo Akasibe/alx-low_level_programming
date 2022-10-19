@@ -10,7 +10,6 @@ int numLength(int num)
 {
 	int length = 0;
 
-
 	if (!is)
 	{
 		return (1);
@@ -19,7 +18,7 @@ int numLength(int num)
 
 	while (num)
 	{
-		num = num / 10 ;
+		num = num / 10;
 		length += 1;
 	}
 
